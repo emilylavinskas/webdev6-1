@@ -21,6 +21,11 @@ html {
     box-sizing: inherit;
 }
 
+.bags {
+    text-align: center;
+    font-size: 5em;
+}
+
 .btn1, .btn2, .btn3, .btn4 {
     color: #000;
     text-decoration: none;
@@ -33,9 +38,35 @@ html {
 .btn1:hover,
 .btn1:active,
 .btn1:focus {
-    background-color: #99ff00;
+    background-color: #579339;
+    color: #fff;
+}
+
+.btn2:hover,
+.btn2:active,
+.btn2:focus {
+    background-color: #579339;
+    color: #fff;
+}
+
+.btn3:hover,
+.btn3:active,
+.btn3:focus {
+    background-color: #579339;
+    color: #fff;
+}
+
+.btn4:hover,
+.btn4:active,
+.btn4:focus {
+    background-color: #579339;
+    color: #fff;
 }
 
 .title {
-    font-family: sans-serif;
+    padding-top: 2em;
+    font-family: 'Futura', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: #579339;  
 }
